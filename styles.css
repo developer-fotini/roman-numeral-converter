@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EDF6FF;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#number, #convert-btn, #number-label {
+    margin: 0 10px;
+}
+
+#number-label {
+    font-size: large;
+    align-self: center;
+}
+#main-container {
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+    max-width: 500px;
+}
+
+fieldset {
+    border: 1px solid #0d57a2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    padding: 40px 20px;
+}
+
+#number {
+    padding: 10px;
+    border: 1px solid #0d57a2;
+    border-radius: 5px;
+    font-size: medium;
+    transition: 0.3s;
+}
+
+#number:hover, #number:focus {
+    background-color: #EDF6FF;
+}
+
+#convert-btn {
+    background-color: #0d57a2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+#convert-btn:hover {
+    background-color: #2e6eae;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#00BFFF,#1E90FF);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
