@@ -84,3 +84,20 @@ footer {
 a {
     color: white;
 }
+main 
+{margin-bottom: 50px;}
+ #output {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding-bottom: 30px;
+  padding-top: 5px;
+  }
+
+.hidden {
+    display: none;
+  }
+  .alert {
+    font-size: 1rem;
+    color: rgba(243, 10, 10, 0.976);
+  }
